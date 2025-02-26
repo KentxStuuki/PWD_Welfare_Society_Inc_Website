@@ -1,10 +1,15 @@
 # PWD Welfare Society Inc 2.0
-- This Project is created by the WD - 302 Students that is a requirment for the final project on AWEb.
+- This Project is created by the WD - 302 Students that is a requirment for the final project on AWEB.
 
 
 ## What is the Purpose of this website?
 - The Purpose of this repository is to make an improve version of the original Wix website they have created into a more user friendly and can also compete with other modern website in the internet.
 
+
+## Components
+- Home page
+- About page
+- Contact page
 
 ### Contributors
 
