@@ -14,4 +14,4 @@
 | Project Assistant / Frontend Assistant / Contents Lead | June Sarah Quiambao | [@qjsarah](https://github.com/qjsarah)|
 | Frontend Assistant / Responsive Lead  | Eljan Joel Pamintuan | [@eljan123](https://github.com/eljan123)|
 | Content Assitant / Documentation Assitant | Jose Favian Reyes | [@saeechy](https://github.com/saeechy)|
-| Responsive Assitant / Content Assitant | Ryle Sundiam | |
+| Responsive Assitant / Content Assitant | Ryle Sundiam | [@luxlucielle](https://github.com/luxlucielle)|
