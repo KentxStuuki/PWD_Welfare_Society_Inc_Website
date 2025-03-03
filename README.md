@@ -1,12 +1,18 @@
 # PWD Welfare Society Inc 2.0
+
 - This Project is created by the WD - 302 Students that is a requirment for the final project on AWEB.
 
 
 ## What is the Purpose of this website?
+
 - The Purpose of this repository is to make an improve version of the original Wix website they have created into a more user friendly and can also compete with other modern website in the internet.
 
+## Link for our Mockup Design
+
+- [PWD Welfare Society Inc 2.0 Mockup Design](https://www.figma.com/design/d9HhsLhKigG0idquHUijcd/AWEB%3A-PWD-Welfare-Society-Inc-2.0?node-id=0-1&p=f&t=Bt2Tf9Mc4vedytZZ-0)
 
 ## Components
+
 - Home page
 - About page
 - Contact page
