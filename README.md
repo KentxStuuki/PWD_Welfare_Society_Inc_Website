@@ -15,6 +15,7 @@
 
 - Home page
 - About page
+- Product Page
 - Contact page
 
 ### Contributors
