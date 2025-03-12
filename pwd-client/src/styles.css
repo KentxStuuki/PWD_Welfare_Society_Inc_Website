@@ -5,4 +5,33 @@
     --secondary-color: #E72D63;
 
     --default-font-color: #d7d7d7;
+
+    /* Padding */
+    --header-pd: 0 10%;
+    --btn-pd: 10px 20px;
+    
+    --default-cont-pd: 10% 4%;
+    --spacer-pd: 2% 0;
+
+    --title-font: 'ITC Avant Garde', sans-serif;
+    --body-font: 'Neue Montreal', sans-serif;
+
+    /* Font Sizes */
+    --defualt-font-size: 2.4rem;
+    --biggest-font-size: 4rem;
+    --bigger-font-size: 3rem;
+    --big-font-size: 1.8rem;
+    --medium-font-size: 1.4rem;
+    --normal-font-size: 1.2rem;
+    --small-font-size: 1rem;
+    --smaller-font-size: .8rem;
+    --smallest-font-size: .1rem;
+
+    --font-mid-bold: 600;
+    --font-max-bold: 900;
+}
+
+*{
+    margin: 0;
+    padding: 0;
 }

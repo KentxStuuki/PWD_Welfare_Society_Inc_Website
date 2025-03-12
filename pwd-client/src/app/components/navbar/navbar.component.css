@@ -2,7 +2,7 @@
 /* ======================================== NAVBAR STYLE ======================================== */
 /* Header styling */
 .header {
-    padding: 0 10%;
+    padding: var(--header-pd);
     font-family: sans-serif;
     background-color: var(--primary-color);
     display: flex;
@@ -26,8 +26,8 @@ nav ul {
 }
 
 nav ul li a {
-    font-size: 1.1rem;
-    font-weight: 600;
+    font-size: var(--small-font-size);
+    font-weight: var(--font-mid-bold);
     color: var(--default-font-color);
     text-decoration: none;
     transition: color 0.3s ease;
@@ -39,8 +39,8 @@ nav ul li a:hover {
 
 /* Volunteer button styling */
 .volunteer-btn-container .volunter-btn {
-    padding: 10px 20px;
-    font-weight: bold;
+    padding: var(--btn-pd);
+    font-weight: var(--font-mid-bold);
     font-family: sans-serif;
     background-color: var(--secondary-color);
     color: var(--default-font-color);

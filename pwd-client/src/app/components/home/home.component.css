@@ -1,0 +1,97 @@
+
+/* ======================================== Section 1 Introduction Style ======================================== */
+.intro-section{
+    color: var(--default-font-color);
+    background-color: var(--primary-color);
+    height: 90vh;
+    display: flex;
+}
+
+h1 {
+    margin: 0;
+}
+
+.intro-container, .intro-img{
+    padding: var(--default-cont-pd);
+}
+
+.intro-container{
+    width: 50%;
+}
+
+.intro-container h1{
+    font-size: var(--biggest-font-size);
+}
+
+.intro-container p{
+    width: 80%;
+    font-size: var(--big-font-size);
+    padding: var(--spacer-pd);
+}
+
+.intro-btn, .post-btn {
+    padding: var(--btn-pd);
+    font-weight: var(--font-mid-bold);
+    display: block;
+    margin: 3% auto;
+    font-size: var(--normal-font-size);
+    font-family: sans-serif;
+    background-color: var(--secondary-color);
+    color: var(--default-font-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.intro-btn:hover, .post-btn:hover {
+    background-color: var(--secondary-color);
+    transform: scale(1.1);
+}
+
+/* ======================================== Post Section Style ======================================== */
+.post-section{
+    color: var(--primary-color);
+    height: auto;
+}
+
+.post-header{
+    text-align: center;
+    margin: var(--spacer-pd);
+}
+
+.post-header h2{
+    font-size: var(--bigger-font-size);
+}
+
+.post-header p{
+    font-size: var(--medium-font-size);
+}
+
+.post-container{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.post{
+    height: 60vh;
+    width: 98%;
+    margin: 0 auto;
+}
+
+.post img{
+    height: 50vh;
+    width: 100%;
+}
+
+.post h3{
+    font-weight: var(--font-max-bold);
+    font-size: var(--medium-font-size);
+    padding: var(--spacer-pd);
+}
+
+.post h3{
+    font-size: var(--normal-font-size);
+}
