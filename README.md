@@ -11,6 +11,9 @@
 
 - [PWD Welfare Society Inc 2.0 Mockup Design](https://www.figma.com/design/d9HhsLhKigG0idquHUijcd/AWEB%3A-PWD-Welfare-Society-Inc-2.0?node-id=0-1&p=f&t=Bt2Tf9Mc4vedytZZ-0)
 
+## Link for our PPT
+- [PWD Welfare Society Inc 2.0 Power Point Presentation](https://github.com/KentxStuuki/PWD_Welfare_Society_Inc_Website/blob/main/AWEB.pptx)
+
 ## Components
 
 - Home page
