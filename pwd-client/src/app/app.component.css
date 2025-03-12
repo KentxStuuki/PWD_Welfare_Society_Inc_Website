@@ -1,0 +1,85 @@
+:root{
+    /* Our Main Colors */
+    --primary-color: #133695;
+    --secondary-color: #E72D63;
+    /* Font Color */
+    --default-font-color: #f4f3f3;
+
+    /* Padding */
+    --header-pd: 0 20px;
+    --btn-pd: 10px 20px;
+
+    --title-font: 'ITC Avant Garde', sans-serif;
+    --body-font: 'Neue Montreal', sans-serif;
+
+    /* Font Sizes */
+    --defualt-font-size: 2.4rem;
+    --biggest-font-size: 2.6rem;
+    --big-font-size: 1.8rem;
+    --medium-font-size: 1.4rem;
+    --normal-font-size: 1.2rem;
+    --small-font-size: 1rem;
+    --smaller-font-size: .8rem;
+    --smallest-font-size: .1rem;
+
+    --font-med-bold: 500;
+    --font-max-bold: 900;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
