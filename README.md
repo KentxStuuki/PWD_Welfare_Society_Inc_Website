@@ -26,7 +26,7 @@
 | Roles | Names | Links | 
 |---|---|---|
 | Project Lead / Frontend Lead / UI/UX Lead / Content Checker | Mark Erolle Quiambao | [@KentxStuuki](https://github.com/KentxStuuki)| 
-| Project Assistant / Frontend Assistant / Contents Lead | June Sarah Quiambao | [@qjsarah](https://github.com/qjsarah)|
+| Project Assistant / Frontend Assistant / Content Assistant / Backend Lead | June Sarah Quiambao | [@qjsarah](https://github.com/qjsarah)|
 | Frontend Assistant / Responsive Lead  | Eljan Joel Pamintuan | [@eljan123](https://github.com/eljan123)|
-| Content Assitant / Documentation Assitant | Jose Favian Reyes | [@saeechy](https://github.com/saeechy)|
+| Contents Lead / Documentation Assitant / Backend Assistant | Jose Favian Reyes | [@saeechy](https://github.com/saeechy)|
 | Responsive Assitant / Content Assitant | Ryle Sundiam | [@luxlucielle](https://github.com/luxlucielle)|
