@@ -1,19 +1,21 @@
-
 /* ======================================== NAVBAR STYLE ======================================== */
 /* Header styling */
 .header {
     padding: var(--header-pd);
     font-family: sans-serif;
     background-color: var(--primary-color);
-    display: flex;
     justify-content: space-between;
     align-items: center;
+    display: flex;
     height: 10vh;
+    gap: 25%;
 }
 
 /* Logo styling */
 .logo img {
+    width: 55px; /* Fixed size for the logo */
     height: auto;
+    border-radius: 100%;
 }
 
 /* Navbar styling */
@@ -54,4 +56,3 @@ nav ul li a:hover {
     background-color: var(--secondary-color);
     transform: scale(1.1);
 }
-

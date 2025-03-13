@@ -1,6 +1,12 @@
 
 /* ======================================== Section 1 Introduction Style ======================================== */
 .intro-section{
+    background-image: var(--cont-color),url(../../../../public/assets/Cover/Cover.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    
     color: var(--default-font-color);
     background-color: var(--primary-color);
     height: 90vh;
@@ -25,11 +31,11 @@ h1 {
 
 .intro-container p{
     width: 80%;
-    font-size: var(--big-font-size);
+    font-size: var(--medium-font-size);
     padding: var(--spacer-pd);
 }
 
-.intro-btn, .post-btn {
+.intro-btn {
     padding: var(--btn-pd);
     font-weight: var(--font-mid-bold);
     display: block;
@@ -44,10 +50,102 @@ h1 {
     transition: 0.5s;
 }
 
-.intro-btn:hover, .post-btn:hover {
+.intro-btn:hover {
     background-color: var(--secondary-color);
     transform: scale(1.1);
 }
+
+
+/* ======================================== News Section Style ======================================== */
+.news-section {
+    color: var(--primary-color);
+    height: auto;
+    padding: var(--spacer-pd);
+}
+
+.news-header {
+    text-align: right;
+    width: 90%;
+    margin: var(--header-mg);
+}
+
+.news-header h2 {
+    color: var(--secondary-color);
+    font-weight: var(--font-max-bold);
+    font-size: var(--bigger-font-size);
+}
+
+.news-header p {
+    width: 100%;
+    font-size: var(--medium-font-size);
+}
+
+.news-container {
+    width: 90%;
+    margin: var(--header-mg);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.news {
+    height: auto;
+    width: 98%;
+}
+
+/* Wrapper to control image and text overlay */
+.news-img-wrapper {
+    position: relative;
+    height: 50vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Image styling */
+.news img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+/* h4 overlay styling */
+.news a {
+    position: absolute;
+    bottom: 0;
+    width: auto;
+    padding: var(--space-tblr-pd);
+    text-decoration-line: none;
+    background: var(--cont-color);
+    color: var(--default-font-color);
+    font-size: var(--medium-font-size);
+    font-weight: var(--font-max-bold);
+    transition: 0.7s;
+}
+
+.news a:hover{
+    text-decoration-line: underline;
+}
+
+/* ======================================== About Section Style ======================================== */
+.about-section{
+    display: flex;
+    width: 90%;
+    margin: var(--header-mg);
+    gap: 20%;
+    padding: var(--spacer-pd);
+}
+
+.about-header{
+    color: var(--secondary-color);
+    width: 100%;
+    font-size: var(--big-font-size);
+}
+
+.about-para {
+    color: var(--primary-color);
+    font-size: var(--medium-font-size);
+}
+
 
 /* ======================================== Post Section Style ======================================== */
 .post-section{
@@ -56,12 +154,14 @@ h1 {
 }
 
 .post-header{
-    text-align: center;
-    margin: var(--spacer-pd);
+    width: 90%;
+    padding: var(--spacer-pd);
+    margin: var(--header-mg);
 }
 
-.post-header h2{
-    font-size: var(--bigger-font-size);
+.post-header h3{
+    color: var(--secondary-color);
+    font-size: var(--big-font-size);
 }
 
 .post-header p{
@@ -92,6 +192,114 @@ h1 {
     padding: var(--spacer-pd);
 }
 
-.post h3{
+
+.post-btn {
+    padding: var(--btn-pd);
+    font-weight: var(--font-mid-bold);
+    display: block;
+    margin: 3% auto;
     font-size: var(--normal-font-size);
+    font-family: sans-serif;
+    background-color: var(--primary-color);
+    color: var(--default-font-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.post-btn:hover {
+    transform: scale(1.1);
+}
+
+
+/* ======================================== Empower Section Style ======================================== */
+
+.empower-section{
+    display: flex;
+    width: 90%;
+    margin: var(--header-mg);
+    gap: 10%;
+}
+
+.emp-img-cont img{
+    width: auto;
+    height: 54vh;
+}
+
+.emp-header{
+    padding: var(--big-pd);
+}
+
+.emp-header h4{
+    color: var(--secondary-color);
+    font-weight: var(--font-max-bold);
+    font-size: var(--big-font-size);
+    padding: var(--spacer-pd);
+}
+
+.emp-header p{
+    color: var(--primary-color);
+    font-size: var(--medium-font-size);
+}
+
+/* ======================================== Qick Contact Section Style ======================================== */
+
+.quick-contact-section{
+    display: flex;
+}
+
+.quick-content{
+    background-color: var(--primary-color);
+    height: 40vh;
+    width: 100%;
+    margin: 3% 0;
+}
+
+.quick{
+    width: 40%;
+    margin: var(--big-pd);
+    padding: 0 0 0 6%;
+}
+
+.quick h5{
+    color: var(--default-font-color);
+    font-weight: var(--font-max-bold);
+    font-size: var(--big-font-size);
+    padding: var(--spacer-pd);
+}
+
+.quick p{
+    color: var(--default-font-color);
+    font-size: var(--medium-font-size);
+}
+
+.quick-btn{
+    padding: var(--btn-pd);
+    font-weight: var(--font-mid-bold);
+    display: block;
+    margin: 3% auto;
+    font-size: var(--normal-font-size);
+    font-family: sans-serif;
+    background-color: var(--secondary-color);
+    color: var(--default-font-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.quick-btn:hover {
+    transform: scale(1.1);
+}
+
+.quick-img-cont{
+    position: relative;
+}
+
+.quick-contact-section img{
+    position: absolute;
+    right: 4%;
+    height: 50vh;
+    width: auto;
 }

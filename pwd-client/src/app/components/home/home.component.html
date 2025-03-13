@@ -11,11 +11,54 @@
     </div>
 </section>
 
+<!-- News Section -->
+<section class="news-section">
+    <!-- News header -->
+    <div class="news-header">
+        <h2>{{ news_header }}</h2>
+        <p>{{ news_para }}</p>
+    </div>
+    <div class="news-container">
+        <div class="news">
+            <div class="news-img-wrapper">
+                <img src="logo.jpg" alt="">
+                <h4><a href="">{{ news_1 }}</a></h4>
+            </div>
+        </div>
+
+        <div class="news">
+            <div class="news-img-wrapper">
+                <img src="logo.jpg" alt="">
+                <h4><a href="">{{ news_2 }}</a></h4>
+            </div>
+        </div>
+
+        <div class="news">
+            <div class="news-img-wrapper">
+                <img src="logo.jpg" alt="">
+                <h4><a href="">{{ news_3 }}</a></h4>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- About Section -->
+<section class="about-section">
+    <!-- About header -->
+    <div class="about-header">
+        <h3>{{ about_header }}</h3>
+    </div>
+    <div class="about-para">
+        <p>{{ about_para }}</p>
+    </div>
+</section>
+
 <!-- Post Section -->
 <section class="post-section">
     <!-- Post header-->
     <div class="post-header">
-        <h2>{{ post_header }}</h2>
+        <h3>{{ post_header }}</h3>
         <p>{{ post_para }}</p>
     </div>
     <div class="post-container">
@@ -44,36 +87,25 @@
     <button class="post-btn">Read More</button>
 </section>
 
-<!-- News Section -->
-<section class="news-section">
-    <!-- News header-->
-    <div class="news-header">
-        <h3>{{ news_header }}</h3>
-        <p>{{ news_para }}</p>
+<!-- Empower Section -->
+<section class="empower-section">
+    <div class="emp-img-cont">
+        <img src="assets/home/Empower_img.png" alt="Empower Image">
     </div>
-    <div class="news-container">
-
-        <div class="news">
-            <img src="" alt="">
-            <h4>News 1</h4>
-        </div>
-
-        <div class="news">
-            <img src="" alt="">
-            <h4>News 2</h4>
-        </div>
-        <div class="news">
-            <img src="" alt="">
-            <h4>News 3</h4>
-        </div>
+    <div class="emp-header">
+        <h4>{{ emp_header }}</h4>
+        <p>{{ emp_para }}</p>
     </div>
 </section>
 
 <!-- Quick Contact header-->
 <section class="quick-contact-section">
-    <div class="quick-container">
-        <img src="" alt="">
-        <h4>{{ quick_contact_header }}</h4>
-        <p>{{ quick_contact_para }}</p>
+    <div class="quick-content">
+        <div class="quick">
+            <h5>{{ quick_contact_header }}</h5>
+            <p>{{ quick_contact_para }}</p>
+            <button class="quick-btn">Contact us</button>
+        </div>
     </div>
+    <img src="assets/home/quick_img.jpg" alt="Quick Section Image">
 </section>

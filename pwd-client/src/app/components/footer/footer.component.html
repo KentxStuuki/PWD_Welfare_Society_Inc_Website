@@ -1,1 +1,26 @@
-<p>footer works!</p>
+<div class="footer-container">
+    <div class="main-footer">
+        <div class="logo-para-container">
+            <a routerLink="/"><img src="assets/logo/logo.jpg" alt="PWD Welfare Society Inc. Logo"></a>
+            <p>{{ footer_para }}</p>
+        </div>
+        <div class="email-form">
+            <form action="">
+                <label for="">Get Monthly Updates:</label>
+                <input type="email" placeholder="Enter Email">
+            </form>
+            <button class="footer-btn">Sign up!</button>
+        </div>
+        <div class="footer-link">
+            <h6>Quick Links</h6>
+            <a href="">HOME</a>
+            <a href="">ABOUT</a>
+            <a href="">EVENTS</a>
+            <a href="">CONTACT</a>
+            <a href="">LOGIN</a>
+        </div>
+    </div>
+</div>
+<div class="copyright">
+    <p>&copy; {{ footer_rights }}</p>
+</div>
