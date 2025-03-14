@@ -12,5 +12,5 @@ import { RouterModule } from '@angular/router';
 })
 export class FooterComponent {
   footer_para ="Empowering the PWD community through advocacy, support, and inclusion.";
-  footer_rights = "2025 PWD Welfare Society Inc. | WD - 302 | All rights reserved.";
+  footer_rights = "2025 PWD Welfare Society Inc. 2.0 | WD - 302 | All rights reserved.";
 }

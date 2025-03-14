@@ -3,28 +3,34 @@
     /* Our Main Colors */
     --primary-color: #133695;
     --secondary-color: #E72D63;
-
-    --default-font-color: #ececec;
     --cont-color: linear-gradient(to top, rgba(19, 54, 149), rgba(17, 10, 91, 0.701));
 
-    /* Padding and Margin */
-    --header-pd: 0 10%;
-    --btn-pd: 10px 20px;
+    --default-font-color: #ececec;
     
-    --default-cont-pd: 10% 4%;
-    --space-tblr-pd: 4%;
 
-    --spacer-pd: 2% 0;
+    /* Padding and Margin */
+    /* Header and Footer Margine and Padding */
+    --header-pd: 0 10%;
     --header-mg: 2% auto;
+
     --footer-mg: 2% auto 0 auto;
     --footer-pd: 3% 0 0 0;
-    --big-pd: 4% 0;
-
+    --footer-inp: 2%;
     --footer-spacer: 2% 4% 0 4%;
 
+    /* Button Padding */
+    --btn-pd: 10px 20px;
+    
+    /* Defaults Padding */
+    --default-cont-pd: 10% 4%;
+    --space-tblr-pd: 4%;
+    --spacer-pd: 2% 0;
+    --big-pd: 3% 0;
+    --left-pd: 0 0 0 6%;
 
-    --title-font: 'ITC Avant Garde', sans-serif;
-    --body-font: 'Neue Montreal', sans-serif;
+    /* Font Families */
+    --title-font: ;
+    --body-font: ;
 
     /* Font Sizes */
     --defualt-font-size: 2.4rem;
@@ -36,6 +42,7 @@
     --small-font-size: 0.8rem;
     --smaller-font-size: 0.4rem;
 
+    /* Font Weight */
     --font-mid-bold: 600;
     --font-max-bold: 900;
 }

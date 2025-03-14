@@ -1,12 +1,9 @@
+
+/* ======================================== Main footer container ======================================== */
+
 .footer-container{
     background-color: var(--primary-color);
     color: var(--default-font-color);
-}
-
-.logo-para-container img{
-    width: 55px; /* Fixed size for the logo */
-    height: auto;
-    border-radius: 100%;
 }
 
 .main-footer{
@@ -16,38 +13,50 @@
 }
 
 
+/*======================================== Logo and Paragraph Container ======================================== */
+.logo-para-container img{
+    width: 55px; /* Fixed size for the logo */
+    height: auto;
+    border-radius: 100%;
+}
+
+
 .logo-para-container,.email-form,.footer-link{
     width: 100%;
     height: 24vh;
-}
-
-.logo-para-container{
+    margin: var(--footer-mg);
     padding: var(--footer-spacer);
 }
 
 .logo-para-container p{
-    padding: var(--spacer-pd);
     font-size: var(--normal-font-size);
-    width: 90%;
 }
 
-.email-form{
-    padding: var(--footer-pd);
-    background-color: #e11616;
-
-}
-
+/*======================================== Quick Email input Container ======================================== */
 label {
     font-size: var(--medium-font-size);
     font-weight: var(--font-mid-bold);
 }
 
 input{ 
-    padding: 2%;
+    padding: var(--footer-inp);
     border-radius: 4px;
     width: 90%;
+    color: var(--secondary-color);
+    background-color: var(--default-font-color);
+    border-style: var(--secondary-color);
+    margin: var(--spacer-pd);
+    font-weight: var(--font-mid-bold);
 }
 
+::placeholder {
+    color: var(--secondary-color);
+    opacity: 0.6;
+}
+
+
+
+/*======================================== Quick Links Footer Container======================================== */
 .footer-btn {
     padding: var(--btn-pd);
     font-weight: var(--font-mid-bold);
@@ -69,17 +78,17 @@ input{
 }
 
 .footer-link{
-    background-color: #e11616;
-    font-weight: var(--font-mid-bold);
+    padding: var(--left-pd);
 }
 
 .footer-link h6{
     font-size: var(--medium-font-size);
     font-weight: var(--font-mid-bold);
+    padding: var(--spacer-pd);
 }
 
 .footer-link a{
-    line-height: 2;
+    line-height: 1.9;
     display: block;
     text-decoration: none;
     color: var(--default-font-color);
@@ -90,8 +99,11 @@ input{
     color: var(--secondary-color);
 }
 
+
+/*======================================== Copy Rights Container ======================================== */
 .copyright{
     text-align: center;
+    height: 4vh;
     background-color: var(--primary-color);
     color: var(--default-font-color);
 }
