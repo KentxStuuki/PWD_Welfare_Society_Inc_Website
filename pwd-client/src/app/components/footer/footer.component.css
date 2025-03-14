@@ -89,10 +89,11 @@ input{
 
 .footer-link a{
     line-height: 1.9;
-    display: block;
     text-decoration: none;
     color: var(--default-font-color);
     transition: 0.7s;
+    display: block;
+    width: 23%;
 }
 
 .footer-link a:hover{
