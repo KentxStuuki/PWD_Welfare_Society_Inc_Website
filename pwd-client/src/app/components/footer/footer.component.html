@@ -5,24 +5,23 @@
         <div class="logo-para-container">
             <a routerLink="/"><img src="assets/logo/logo.jpg" alt="PWD Welfare Society Inc. Logo"></a>
             <p>{{ footer_para }}</p>
-            <a routerLink='/login'><p>Admin Login</p></a>
         </div>
         <!-- Quick Email input Container -->
         <div class="email-form">
             <form (submit)="addEmail($event)">
                 <label for="subscriberEmail">Get Monthly Updates:</label>
-                <input type="email" id="subscriberEmail" placeholder="Your Email">
+                <input type="email" id="subscriberEmail" placeholder="Your Email" required>
                 <button class="footer-btn" type="submit">Sign up!</button>
             </form>
         </div>
         <!-- Quick Links Footer Container -->
         <div class="footer-link">
             <h6>Quick Links</h6>
-            <a href="">HOME</a>
-            <a href="">ABOUT</a>
-            <a href="">EVENTS</a>
-            <a href="">CONTACT</a>
-            <a href="">LOGIN</a>
+            <a href="/">HOME</a>
+            <a href="/about">ABOUT</a>
+            <a href="/event">EVENTS</a>
+            <a href="/contact">CONTACT</a>
+            <a href="/login">LOGIN</a>
         </div>
     </div>
 </footer>
