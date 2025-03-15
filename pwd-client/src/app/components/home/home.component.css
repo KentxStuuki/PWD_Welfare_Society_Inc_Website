@@ -21,7 +21,7 @@ h1 {
 }
 
 .intro-img img{
-    height: 75vh;
+    height: 80vh;
     width: auto;
 }
 
@@ -34,6 +34,7 @@ h1 {
 }
 
 .intro-container p{
+    color: var(--default-font-color);
     width: 80%;
     font-size: var(--medium-font-size);
     padding: var(--spacer-pd);

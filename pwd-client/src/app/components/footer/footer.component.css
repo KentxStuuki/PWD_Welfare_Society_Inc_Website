@@ -39,7 +39,7 @@ label {
 }
 
 input{ 
-    padding: var(--footer-inp);
+    padding: var(--form-inp);
     border-radius: 4px;
     width: 90%;
     color: var(--secondary-color);
