@@ -1,0 +1,13 @@
+<h1>ALL POSTS</h1>
+<a routerLink="/admin-ui/add-post">
+    <button type="button">Add New Post</button>
+</a> <br><br><br>
+<div *ngFor="let post of posts">
+    <a [routerLink]="['/admin-ui/post-details', post._id]">
+        <h2>{{ post.title }}</h2>
+        <p><strong>Posted on:</strong> {{ post.createdAt | date:'medium' }}</p>
+        <img *ngIf="post.image" [src]="post.image" alt="{{ post.title }}" width="100">
+    </a>
+</div>   
+<app-volunteer-table />
+<app-contact-table />
