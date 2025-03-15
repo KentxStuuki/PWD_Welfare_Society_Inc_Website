@@ -10,7 +10,7 @@ const app = express();
 const PORT = 5038;
 
 // Database Connection Setup
-const CONNECTION_STRING = "mongodb+srv://user:userpass@cluster0.8eiyg.mongodb.net/";
+const CONNECTION_STRING = "mongodb+srv://pwdsi3969:6CErfup5JR6DSVih@cluster0.eajln.mongodb.net/";
 const DATABASENAME = "PWSIDB";
 
 MongoClient.connect(CONNECTION_STRING, (error, client) => {

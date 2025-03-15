@@ -1,30 +1,27 @@
-<div class="container">
-    <div class="form-box">
+<div class="volunteer-form-container">
       <h2>Volunteer Registration</h2>
-  
       <form (submit) = "addVolunteer($event)">
         <div class="group">
           <label for="volName">Name:</label>
-          <input type="text" id="volName" required>
+          <input type="text" id="volName"  placeholder="First Name Last Name" required>
         </div>
   
         <div class="group">
           <label for="volPhone">Phone:</label>
-          <input type="text" id="volPhone" required>
+          <input type="text" id="volPhone" placeholder="09XXXXXXXXXX" required>
         </div>
   
         <div class="group">
           <label for="volEmail">Email:</label>
-          <input type="email" id="volEmail" required>
+          <input type="email" id="volEmail" placeholder="name@email.com" required>
         </div>
   
         <div class="group">
           <label for="volMessage">Message:</label>
-          <textarea id="volMessage" rows="3" required></textarea>
+          <textarea id="volMessage" placeholder="Write us something...." required></textarea>
         </div>
   
         <button type="submit" class="submit-button">Add Volunteer</button>
       </form>
-    </div>
-  </div>
+</div>
   
