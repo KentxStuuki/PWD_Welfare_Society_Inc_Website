@@ -14,7 +14,7 @@
 
 /*======================================== Logo and Paragraph Container ======================================== */
 .logo-para-container img{
-    width: 55px; /* Fixed size for the logo */
+    width: 55px; 
     height: auto;
     border-radius: 100%;
 }
