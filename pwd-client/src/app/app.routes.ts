@@ -10,6 +10,8 @@ import { AdminInterfaceComponent } from './admin-interface/admin-interface.compo
 import { AddPostComponent } from './admin-interface/add-post/add-post.component';
 import { EditPostComponent } from './admin-interface/edit-post/edit-post.component';
 import { AdminPostDetailsComponent } from './admin-interface/admin-post-details/admin-post-details.component';
+import { VolunteerFormComponent } from './components/volunteer/volunteer-form/volunteer-form.component';
+import { ContactFormComponent } from './components/contact/contact-form/contact-form.component';
 
 export const routes: Routes = [
     {path: '', component: HomeComponent},

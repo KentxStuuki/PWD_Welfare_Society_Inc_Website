@@ -5,6 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { ContactTableComponent } from './contact-table/contact-table.component';
 import { VolunteerTableComponent } from './volunteer-table/volunteer-table.component';
+
 @Component({
   selector: 'app-admin-interface',
   standalone: true,
