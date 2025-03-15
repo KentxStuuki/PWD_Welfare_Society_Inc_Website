@@ -63,3 +63,98 @@ i{
 app-contact-form{
     width: 100%;
 }
+
+/* ======================================== Responsive Styles ======================================== */
+
+/* Laptop/Small Desktop (1024px - 1279px) */
+@media screen and (max-width: 1279px) {
+    .contact-content img {
+        height: 28vh;
+    }
+    
+    .contact-content h2 {
+        font-size: calc(var(--big-font-size) * 0.9);
+    }
+    
+    .contact-content p {
+        font-size: calc(var(--medium-font-size) * 0.95);
+    }
+}
+
+/* Tablet (768px - 1023px) */
+@media screen and (max-width: 1023px) {
+    .contact-header-section {
+        height: 20vh;
+        font-size: calc(var(--biggest-font-size) * 0.9);
+    }
+    
+    .contact-form, .map-section {
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .contact-content {
+        text-align: center;
+        width: 100%;
+    }
+    
+    .contact-content img {
+        height: 25vh;
+        margin: 0 auto;
+        display: block;
+    }
+    
+    app-contact-form {
+        width: 90%;
+    }
+}
+
+/* Mobile (320px - 767px) */
+@media screen and (max-width: 767px) {
+    .contact-header-section {
+        height: 18vh;
+        font-size: calc(var(--biggest-font-size) * 0.8);
+    }
+    
+    .contact-form, .map-section {
+        width: 95%;
+    }
+    
+    .contact-content h2 {
+        font-size: calc(var(--big-font-size) * 0.8);
+    }
+    
+    .contact-content p {
+        font-size: calc(var(--medium-font-size) * 0.9);
+    }
+    
+    .contact-content a {
+        font-size: calc(var(--normal-font-size) * 0.9);
+    }
+    
+    .contact-content img {
+        height: 22vh;
+    }
+    
+    app-contact-form {
+        width: 100%;
+    }
+}
+
+/* Small Mobile (320px - 479px) */
+@media screen and (max-width: 479px) {
+    .contact-header-section {
+        height: 15vh;
+        font-size: calc(var(--biggest-font-size) * 0.7);
+    }
+    
+    .contact-content img {
+        height: 20vh;
+    }
+
+    .map-section{
+        height: 30vh;
+        padding-bottom: 5%;
+    }
+}

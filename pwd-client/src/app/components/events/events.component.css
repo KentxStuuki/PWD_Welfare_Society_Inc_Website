@@ -56,6 +56,7 @@
 .post-container a{
     text-decoration: none;
     font-size: var(--medium-font-size);
+    color: var(--primary-color);
 }
 
 .post-container a:hover{

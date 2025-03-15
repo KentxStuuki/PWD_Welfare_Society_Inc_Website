@@ -15,6 +15,16 @@ import { SubscriberTableComponent } from './subscriber-table/subscriber-table.co
   styleUrl: './admin-interface.component.css'
 })
 export class AdminInterfaceComponent {
+
+  // Admin Header
+  admin_header = "Control Panel";
+
+  // Admin Post Container
+  admin_post_container = "All Posts"
+
+  // Crud Section Header 
+  crud_header = "All Crud Table's"
+
   readonly APIUrl = 'http://localhost:5038/posts/';
   editingPost: any=null;  
 
