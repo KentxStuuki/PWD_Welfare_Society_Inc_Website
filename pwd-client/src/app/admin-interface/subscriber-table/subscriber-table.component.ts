@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
+import { Router, RouterModule } from '@angular/router';
+
 @Component({
   selector: 'app-subscriber-table',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, RouterModule],
   templateUrl: './subscriber-table.component.html',
   styleUrl: './subscriber-table.component.css'
 })

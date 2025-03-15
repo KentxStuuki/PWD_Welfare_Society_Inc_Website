@@ -12,6 +12,9 @@ import { EditPostComponent } from './admin-interface/edit-post/edit-post.compone
 import { AdminPostDetailsComponent } from './admin-interface/admin-post-details/admin-post-details.component';
 import { VolunteerFormComponent } from './components/volunteer/volunteer-form/volunteer-form.component';
 import { ContactFormComponent } from './components/contact/contact-form/contact-form.component';
+import { VolunteerTableComponent } from './admin-interface/volunteer-table/volunteer-table.component';
+import { ContactTableComponent } from './admin-interface/contact-table/contact-table.component';
+import { SubscriberTableComponent } from './admin-interface/subscriber-table/subscriber-table.component';
 
 export const routes: Routes = [
     {path: '', component: HomeComponent},
@@ -25,4 +28,7 @@ export const routes: Routes = [
     {path: 'admin-ui/add-post', component: AddPostComponent},
     {path: 'admin-ui/edit-post/:id', component: EditPostComponent},
     {path: 'admin-ui/post-details/:id', component: AdminPostDetailsComponent},
+    {path: 'admin-ui/volunteer', component: VolunteerTableComponent},
+    {path: 'admin-ui/contact', component: ContactTableComponent},
+    {path: 'admin-ui/subscriber', component: SubscriberTableComponent}
 ];

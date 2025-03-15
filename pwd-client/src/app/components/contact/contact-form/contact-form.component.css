@@ -53,4 +53,5 @@ textarea{
 
 .contact-btn:hover {
     background-color: var(--secondary-color);
+    transform: scale(1.1);
 }

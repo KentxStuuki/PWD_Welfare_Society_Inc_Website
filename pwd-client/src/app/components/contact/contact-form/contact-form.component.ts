@@ -37,4 +37,6 @@ export class ContactFormComponent {
     (document.getElementById("contactSub") as HTMLInputElement).value = "";
     (document.getElementById("contactMess") as HTMLInputElement).value = "";
   }
+  contact_form_header = "Contact Form";
+
 }
