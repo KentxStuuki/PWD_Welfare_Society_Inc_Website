@@ -15,7 +15,6 @@
 
     --footer-mg: 2% auto 0 auto;
     --footer-pd: 3% 0 0 0;
-    --footer-inp: 2%;
     --footer-spacer: 2% 4% 0 4%;
 
     /* Button Padding */
@@ -23,8 +22,10 @@
     
     /* Defaults Padding */
     --default-cont-pd: 10% 4%;
+    --form-inp: 2%;
+    --icon-pd: 0 2% 0 0;
     --space-tblr-pd: 4%;
-    --spacer-pd: 2% 0;
+    --spacer-pd: 1% 0;
     --big-pd: 3% 0;
     --left-pd: 0 0 0 6%;
 
@@ -35,8 +36,8 @@
     /* Font Sizes */
     --defualt-font-size: 2.4rem;
     --biggest-font-size: 4rem;
-    --bigger-font-size: 3rem;
-    --big-font-size: 2rem;
+    --bigger-font-size: 3.5rem;
+    --big-font-size: 2.5rem;
     --medium-font-size: 1.3rem;
     --normal-font-size: 1rem;
     --small-font-size: 0.8rem;
@@ -54,5 +55,8 @@
 
 body{
     background-color: var(--default-font-color);
+}
 
+h1,h2,h3,h4,h5, p, a{
+    font-family: sans-serif
 }
