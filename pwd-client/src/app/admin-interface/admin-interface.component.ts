@@ -5,11 +5,12 @@ import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { ContactTableComponent } from './contact-table/contact-table.component';
 import { VolunteerTableComponent } from './volunteer-table/volunteer-table.component';
+import { SubscriberTableComponent } from './subscriber-table/subscriber-table.component';
 
 @Component({
   selector: 'app-admin-interface',
   standalone: true,
-  imports: [CommonModule, FormsModule, RouterModule, VolunteerTableComponent, ContactTableComponent],
+  imports: [CommonModule, FormsModule, RouterModule, VolunteerTableComponent, ContactTableComponent, SubscriberTableComponent],
   templateUrl: './admin-interface.component.html',
   styleUrl: './admin-interface.component.css'
 })

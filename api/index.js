@@ -35,6 +35,7 @@ let postRoutes = require("./routes/post-routes");
 let login = require('./routes/login');
 let volunteerRoutes = require('./routes/volunteer-routes');
 let contactRoutes = require('./routes/contact-routes');
+let subscriberRoutes = require('./routes/subscriber-routes');
 postRoutes(app);
 async function createAdminUser() { //precreated admin user
   try {
@@ -67,6 +68,7 @@ async function createAdminUser() { //precreated admin user
 login(app);
 volunteerRoutes(app);
 contactRoutes(app);
+subscriberRoutes(app);
 // Start Server
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
