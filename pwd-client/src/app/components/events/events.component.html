@@ -1,1 +1,5 @@
-<p>events works!</p>
+<div *ngFor="let post of posts">
+    <h3>
+      <a [routerLink]="['/event', post._id]">{{ post.title }}</a>
+    </h3>
+</div>  
