@@ -55,3 +55,75 @@ textarea{
     background-color: var(--secondary-color);
     transform: scale(1.1);
 }
+
+/* ======================================== Responsive Styles ======================================== */
+
+/* Laptop/Small Desktop (1024px - 1279px) */
+@media screen and (max-width: 1279px) {
+    .contact-form h2 {
+        font-size: calc(var(--big-font-size) * 0.9);
+    }
+    
+    label {
+        font-size: calc(var(--medium-font-size) * 0.95);
+    }
+}
+
+/* Tablet (768px - 1023px) */
+@media screen and (max-width: 1023px) {
+    form {
+        width: 100%;
+    }
+    
+    input, textarea {
+        width: 90%;
+    }
+    
+    .contact-btn {
+        width: 90%;
+    }
+}
+
+/* Mobile (320px - 767px) */
+@media screen and (max-width: 767px) {
+    .contact-form h2 {
+        font-size: calc(var(--big-font-size) * 0.8);
+        text-align: center;
+    }
+    
+    label {
+        font-size: calc(var(--medium-font-size) * 0.9);
+        display: block;
+        text-align: center;
+    }
+    
+    input, textarea {
+        width: 95%;
+        margin: 10px auto;
+        display: block;
+    }
+    
+    textarea {
+        height: 15vh;
+    }
+    
+    .contact-btn {
+        width: 100%;
+        padding: calc(var(--btn-pd) * 1.1);
+    }
+}
+
+/* Small Mobile (320px - 479px) */
+@media screen and (max-width: 479px) {
+    input, textarea {
+        width: 90%;
+    }
+    
+    textarea {
+        height: 12vh;
+    }
+    
+    .contact-btn {
+        margin: 15px auto;
+    }
+}
