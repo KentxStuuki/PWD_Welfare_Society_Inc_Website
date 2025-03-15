@@ -4,25 +4,25 @@ import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 
 @Component({
-  selector: 'app-login',
-  standalone: true,
-  imports: [FormsModule, RouterModule],
-  templateUrl: './login.component.html',
-  styleUrl: './login.component.css'
+    selector: 'app-login',
+    standalone: true,
+    imports: [FormsModule, RouterModule],
+    templateUrl: './login.component.html',
+    styleUrl: './login.component.css'
 })
 export class LoginComponent {
 
-   // Login Header
-   login_header = "Welcome Back!"; 
+    // Login Header
+    login_header = "Welcome Back!"; 
 
-  email=''; pass='';
-  constructor(private http: HttpClient) {}
+    email=''; pass='';
+    constructor(private http: HttpClient) {}
 
-  ngOnInit() {}
+    ngOnInit() {}
 
-  submitLoginForm(loginForm: any) {
-    const email = loginForm.form.value.email;
-    const pass = loginForm.form.value.pass;
+    submitLoginForm(loginForm: any) {
+        const email = loginForm.form.value.email;
+        const pass = loginForm.form.value.pass;
 
     // Check if email or password is missing
     if (!email || !pass) {

@@ -11,6 +11,14 @@ import { RouterModule } from '@angular/router';
   styleUrl: './events.component.css'
 })
 export class EventsComponent {
+  // Event Page header section
+  event_header = "Upcoming & Past Events";
+  event_header_para = "Join us and stay updated on events that empower the PWD community!";
+
+  // Post Section
+  post_header = "Making an Impact Our Initiatives";
+  post_para = "Showcasing programs, events, and success stories that empower and celebrate the PWD community, while keeping you updated on their latest achievements and milestones.";
+
   readonly APIUrl = 'http://localhost:5038/posts/';
   constructor(private http:HttpClient){}
   title = 'ui';
