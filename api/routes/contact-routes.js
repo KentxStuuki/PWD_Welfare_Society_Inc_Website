@@ -14,7 +14,6 @@ app.get('/contacts/GetContacts', async (req, res) => {
   //Add contacts
   app.post("/contacts/AddContact", async (req, res) => {
     try {
-      console.log("Received Contact Data:", req.body);
       let newContact = req.body;
       let result = await database.collection("contacts").insertOne(newContact);
       res.json({ message: "Contact added!", id: result.insertedId });
