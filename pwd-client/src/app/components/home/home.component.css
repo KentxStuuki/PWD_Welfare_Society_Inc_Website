@@ -159,7 +159,7 @@ p{
     font-size: var(--medium-font-size);
 }
 
-/* ======================================== Qick Contact Section Style ======================================== */
+/* ======================================== Quick Contact Section Style ======================================== */
 
 .quick-contact-section{
     display: flex;
@@ -267,8 +267,9 @@ p{
     
     .intro-img img {
         height: 60vh;
-        margin: 0 auto;
+        margin: 0 0 10px 0;
         display: block;
+        
     }
     
 
@@ -430,7 +431,10 @@ p{
     }
     
     .quick-contact-section img {
-        height: 40vh;
+        height: 35vh;
+        width: auto;
+        object-fit: contain;
+        max-width: 100%;
     }
     
     .intro-btn, .post-btn, .quick-btn {
@@ -462,6 +466,9 @@ p{
     
     .quick-contact-section img {
         height: 35vh;
+        width: auto;
+        object-fit: contain;
+        max-width: 100%;
     }
     
     .intro-btn, .post-btn, .quick-btn {
