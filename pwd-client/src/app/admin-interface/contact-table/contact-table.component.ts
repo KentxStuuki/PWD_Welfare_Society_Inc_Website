@@ -22,7 +22,6 @@ export class ContactTableComponent {
 
   refreshContacts() {
     this.http.get(this.contactsAPIUrl + 'GetContacts').subscribe(data => {
-      console.log("Contacts:", data); // Debugging log
       this.contacts = data;
     }, error => {
       console.error("Error fetching contacts:", error);

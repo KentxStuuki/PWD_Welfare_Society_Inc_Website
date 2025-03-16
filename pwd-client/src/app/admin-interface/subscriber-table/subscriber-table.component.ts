@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
-import { Router, RouterModule } from '@angular/router';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-subscriber-table',
@@ -22,7 +22,6 @@ export class SubscriberTableComponent {
 
   refreshUseremail() {
     this.http.get(this.useremailAPIUrl + 'GetEmail').subscribe(data => {
-      console.log("Subscriber Email: ", data);
       this.useremail = data;
     }, error => {
       console.error("Error fetching subscriber's email: ", error);

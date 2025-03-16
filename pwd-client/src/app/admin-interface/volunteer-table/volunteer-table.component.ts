@@ -16,12 +16,11 @@ export class VolunteerTableComponent {
   constructor(private http: HttpClient) { }
 
   ngOnInit(): void {
-    this.refreshVolunteers(); // Call on initialization
+    this.refreshVolunteers();
   }
 
   refreshVolunteers() {
     this.http.get(this.volunteersAPIUrl + 'GetVolunteers').subscribe(data => {
-      console.log("Volunteers:", data); // Debugging log
       this.volunteers = data;
     }, error => {
       console.error("Error fetching volunteers:", error);
