@@ -47,8 +47,8 @@ try {
 // Delete a post
 app.delete("/posts/Deletepost", async (req, res) => {
 try {
-    const id = req.query.id;
-    const post = await database.collection("posts").findOne({ id });
+    const id = new ObjectId(req.query._id);
+    const post = await database.collection("posts").findOne({ _id : id });
     if (!post) {
         return res.status(404).json({ error: "Post not found" });
     }
@@ -57,7 +57,7 @@ try {
     if (fs.existsSync(oldImagePath)) {
         fs.unlinkSync(oldImagePath);
     }
-    await database.collection("posts").deleteOne({ id });
+    await database.collection("posts").deleteOne({ _id: id });
 
     res.json("Deleted successfully!");
 } catch (error) {

@@ -31,7 +31,7 @@ export class AdminPostDetailsComponent {
   }
 
   deletePost(id:string){
-    this.http.delete(this.APIUrl+'DeletePost?_id='+id).subscribe(
+    this.http.delete(this.APIUrl+'Deletepost?_id='+id).subscribe(
       data=>{
         alert(data);
         window.location.href = "http://localhost:4200/admin-ui";
