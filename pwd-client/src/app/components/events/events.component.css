@@ -42,6 +42,8 @@
     font-size: var(--medium-font-size);
 }
 
+/* Gallery Section */
+
 .post-gallery-section{
     width: 91%;
     margin: var(--header-mg);
