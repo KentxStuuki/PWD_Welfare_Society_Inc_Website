@@ -12,6 +12,7 @@ import { Router, RouterModule, ActivatedRoute } from '@angular/router';
   styleUrl: './admin-post-details.component.css'
 })
 export class AdminPostDetailsComponent {
+  about_header= "About the Event:";
   readonly APIUrl = 'http://localhost:5038/posts/';
   editingPost: any=null;  
 
