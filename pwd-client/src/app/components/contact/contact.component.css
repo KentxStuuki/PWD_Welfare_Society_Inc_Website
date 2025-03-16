@@ -86,6 +86,7 @@ app-contact-form{
     .contact-header-section {
         height: 20vh;
         font-size: calc(var(--biggest-font-size) * 0.9);
+        padding-top: 80px;
     }
     
     .contact-form, .map-section {
@@ -146,7 +147,8 @@ app-contact-form{
 @media screen and (max-width: 479px) {
     .contact-header-section {
         height: 15vh;
-        font-size: calc(var(--biggest-font-size) * 0.7);
+        font-size: calc(var(--biggest-font-size) * 0.6);
+        padding-top: 60px;
     }
     
     .contact-content img {

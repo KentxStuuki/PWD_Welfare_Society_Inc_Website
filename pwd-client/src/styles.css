@@ -48,6 +48,10 @@
     /* Font Weight */
     --font-mid-bold: 600;
     --font-max-bold: 900;
+
+    /* FOR MOBILEEE AHHHH*/
+    --mobile-padding-form: 10px;
+    --mobile-margin-form: 15px;
 }
 
 *{

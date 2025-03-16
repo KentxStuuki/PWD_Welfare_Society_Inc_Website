@@ -14,7 +14,6 @@ label {
     font-size: var(--medium-font-size);
     font-weight: var(--font-mid-bold);
     color: var(--primary-color);
-
 }
 
 input, textarea{ 
@@ -125,5 +124,15 @@ textarea{
     
     .contact-btn {
         margin: 15px auto;
+    }
+
+    label {
+        text-align: left;
+        margin-left: 10px;
+    }
+
+    .contact-btn{
+        padding: var(--mobile-padding-form);
+        margin-top: var(--mobile-margin-form);
     }
 }
