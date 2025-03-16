@@ -267,8 +267,9 @@ p{
     
     .intro-img img {
         height: 60vh;
-        margin: 0 auto;
+        margin: 0 0 10px 0;
         display: block;
+        
     }
     
 
