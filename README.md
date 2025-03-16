@@ -19,7 +19,7 @@
 - Home page
 - About page
 - Events Page
-- Contact pag
+- Contact page
 
 ### Contributors
 
