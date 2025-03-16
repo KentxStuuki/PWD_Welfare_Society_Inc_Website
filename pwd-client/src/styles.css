@@ -24,6 +24,7 @@
     --default-cont-pd: 10% 4%;
     --form-inp: 2%;
     --icon-pd: 0 2% 0 0;
+    --icon-btn-pd: 12%;
     --space-tblr-pd: 4%;
     --spacer-pd: 1% 0;
     --big-pd: 3% 0;
@@ -35,6 +36,7 @@
 
     /* Font Sizes */
     --icon-size: 10rem;
+    --small-icon-size: 2rem;
     --biggest-font-size: 4rem;
     --bigger-font-size: 3.5rem;
     --big-font-size: 2.5rem;

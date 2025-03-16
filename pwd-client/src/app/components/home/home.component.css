@@ -59,82 +59,57 @@ h1 {
 }
 
 
-/* ======================================== News Section Style ======================================== */
-
-h2,h3,h4{
+h2,h3,h4{ 
     color: var(--secondary-color);
 }
 
 p{
     color: var(--primary-color);
 }
-
-.news-section {
+/* ======================================== Post Section Style ======================================== */
+.post-section{
     height: auto;
-    padding: var(--spacer-pd);
+    margin: var(--spacer-pd);
 }
 
-.news-header {
-    text-align: right;
+.post-header{
     width: 90%;
+    padding: var(--spacer-pd);
     margin: var(--header-mg);
+    text-align: right;
 }
 
-.news-header h2 {
-    font-weight: var(--font-max-bold);
+.post-header h2{
     font-size: var(--bigger-font-size);
 }
 
-.news-header p {
-    width: 100%;
+.post-header p{
     font-size: var(--medium-font-size);
 }
 
-.news-container {
-    width: 90%;
+.post-btn {
+    padding: var(--btn-pd);
+    font-weight: var(--font-mid-bold);
+    display: block;
     margin: var(--header-mg);
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
-
-.news {
-    height: auto;
-    width: 98%;
-}
-
-/* Wrapper to control image and text overlay */
-.news-img-wrapper {
-    position: relative;
-    height: 50vh;
-    width: 100%;
-    overflow: hidden;
-}
-
-/* Image styling */
-.news img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    
-}
-
-/* h4 overlay styling */
-.news a {
-    position: absolute;
-    bottom: 0;
-    width: auto;
-    padding: var(--space-tblr-pd);
-    text-decoration-line: none;
-    background: var(--cont-color);
+    font-size: var(--normal-font-size);
+    background-color: var(--secondary-color);
     color: var(--default-font-color);
-    font-size: var(--medium-font-size);
-    font-weight: var(--font-max-bold);
-    transition: 0.7s;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
 }
 
-.news a:hover{
-    text-decoration-line: underline;
+.post-section a{
+    text-decoration: none;
 }
+
+.post-btn:hover {
+    transform: scale(1.1);
+}
+
+
 
 /* ======================================== About Section Style ======================================== */
 .about-section{
@@ -154,68 +129,6 @@ p{
     font-size: var(--medium-font-size);
 }
 
-
-/* ======================================== Post Section Style ======================================== */
-.post-section{
-    height: auto;
-}
-
-.post-header{
-    width: 90%;
-    padding: var(--spacer-pd);
-    margin: var(--header-mg);
-}
-
-.post-header h3{
-    font-size: var(--big-font-size);
-}
-
-.post-header p{
-    font-size: var(--medium-font-size);
-}
-
-.post-container{
-    width: 90%;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
-
-.post{
-    height: 60vh;
-    width: 98%;
-    margin: 0 auto;
-}
-
-.post img{
-    height: 50vh;
-    width: 100%;
-}
-
-.post h3{
-    font-weight: var(--font-max-bold);
-    font-size: var(--medium-font-size);
-    padding: var(--spacer-pd);
-}
-
-
-.post-btn {
-    padding: var(--btn-pd);
-    font-weight: var(--font-mid-bold);
-    display: block;
-    margin: var(--header-mg);
-    font-size: var(--normal-font-size);
-    background-color: var(--primary-color);
-    color: var(--default-font-color);
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.5s;
-}
-
-.post-btn:hover {
-    transform: scale(1.1);
-}
 
 
 /* ======================================== Empower Section Style ======================================== */

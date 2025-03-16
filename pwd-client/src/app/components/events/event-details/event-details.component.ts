@@ -12,6 +12,11 @@ import { RouterModule } from '@angular/router';
   styleUrl: './event-details.component.css'
 })
 export class EventDetailsComponent {
+
+  // Content Section
+  time_header = "Time Post:";
+  about_header= "About the Event:";
+
   readonly APIUrl = 'http://localhost:5038/posts/getPost/';
   post: any = {};
 

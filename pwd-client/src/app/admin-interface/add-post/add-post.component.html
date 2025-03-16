@@ -1,6 +1,6 @@
 <h3>Add A New Post</h3>
 <form (submit)="addPost(); $event.preventDefault()">
-  <input type="text" id="newPost" placeholder="Title" required>
+  <input type="text" id="newPost" placeholder="Title" maxlength="30" required>
   <input type="file" accept="image/*" id="newFeaturedImage" required>
   <textarea name="content" id="newPostContent" placeholder="Content" required></textarea>
   <button type="submit">Submit</button>

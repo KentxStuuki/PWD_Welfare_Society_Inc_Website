@@ -2,7 +2,6 @@
 /* ======================================== Event Header Section Style ======================================== */
 .event-header-section{
     background-image: var(--cont-color),url(../../../../public/assets/Cover/Cover.jpg);
-    background-image: var(--cont-color),url(../../../../public/assets/Cover/Cover.jpg);
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;

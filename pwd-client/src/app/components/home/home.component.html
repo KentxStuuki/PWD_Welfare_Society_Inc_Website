@@ -11,36 +11,17 @@
     </div>
 </section>
 
-<!-- News Section -->
-<section class="news-section">
-    <!-- News header -->
-    <div class="news-header">
-        <h2>{{ news_header }}</h2>
-        <p>{{ news_para }}</p>
+<!-- Post Section -->
+<section class="post-section">
+    <!-- Post header-->
+    <div class="post-header">
+        <h2>{{ post_header }}</h2>
+        <p>{{ post_para }}</p>
     </div>
-    <div class="news-container">
-        <app-home-events /> <!--ITO YUNG EVENT PART FOR HOME.**STYLING SHOULD BE IN THE HOME-EVENTS COMPONENT-->
-        <div class="news">
-            <div class="news-img-wrapper">
-                <img src="logo.jpg" alt="">
-                <h4><a href="">{{ news_1 }}</a></h4>
-            </div>
-        </div>
-
-        <div class="news">
-            <div class="news-img-wrapper">
-                <img src="logo.jpg" alt="">
-                <h4><a href="">{{ news_2 }}</a></h4>
-            </div>
-        </div>
-
-        <div class="news">
-            <div class="news-img-wrapper">
-                <img src="logo.jpg" alt="">
-                <h4><a href="">{{ news_3 }}</a></h4>
-            </div>
-        </div>
+    <div class="post-container">
+        <app-home-events />
     </div>
+    <a href="/event"><button class="post-btn">Read More</button></a>
 </section>
 
 
@@ -53,39 +34,6 @@
     <div class="about-para">
         <p>{{ about_para }}</p>
     </div>
-</section>
-
-<!-- Post Section -->
-<section class="post-section">
-    <!-- Post header-->
-    <div class="post-header">
-        <h3>{{ post_header }}</h3>
-        <p>{{ post_para }}</p>
-    </div>
-    <div class="post-container">
-        <div class="post">
-            <div class="post-img-container">
-                <img src="logo.jpg" alt="Post">
-            </div>
-                <h3><a href="">PWSI WITH NAMAPA GOES TO MMDA</a></h3>
-                <p>Community outreach of PWSI for Brgy...Read More......</p>
-        </div>
-        <div class="post">
-            <div class="post-img-container">
-                <img src="logo.jpg" alt="Post">
-            </div>
-                <h3><a href="">PWSI WITH NAMAPA GOES TO MMDA</a></h3>
-                <p>Community outreach of PWSI for Brgy...Read More......</p>
-        </div>
-        <div class="post">
-            <div class="post-img-container">
-                <img src="logo.jpg" alt="Post">
-            </div>
-                <h3><a href="">PWSI WITH NAMAPA GOES TO MMDA</a></h3>
-                <p>Community outreach of PWSI for Brgy...Read More......</p>
-        </div>
-    </div>
-    <button class="post-btn">Read More</button>
 </section>
 
 <!-- Empower Section -->

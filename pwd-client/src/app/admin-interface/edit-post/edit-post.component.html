@@ -1,7 +1,7 @@
 <h3>Edit Post</h3>
 
 <form *ngIf="editingPost" (submit)="editPost(fileInput); $event.preventDefault()">
-  <input type="text" [(ngModel)]="editingPost.title" placeholder="Title" required name="title">
+  <input type="text" [(ngModel)]="editingPost.title" placeholder="Title" required name="title" maxlength="30">
 
   <input type="file" accept="image/*" #fileInput>
 

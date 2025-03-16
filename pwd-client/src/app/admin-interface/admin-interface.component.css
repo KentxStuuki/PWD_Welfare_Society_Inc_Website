@@ -20,6 +20,7 @@
 .admin-post-container-section{
     margin: var(--header-mg);
     width: 90%;
+    height: auto;
 }
 
 .admin-post-container-section h2{
@@ -52,6 +53,7 @@
 text-decoration: underline;
 }
 
+
 .admin-post-container img{
     height: auto;
     width: 100%;
@@ -63,20 +65,22 @@ text-decoration: underline;
     height: 50vh;
     text-align: center;
     text-decoration: none;
-}
 
-.add-post-btn:hover{
-    border: 1px solid var(--primary-color);
- 
 }
 
 .add-post-btn i{
     font-size: var(--icon-size);
-    padding: 10%;
+    padding: var(--icon-btn-pd);
+
 }
 
 .add-post-btn p{
     font-size: var(--medium-font-size);
+}
+
+.add-post-btn:hover{
+    border: 1px solid var(--primary-color);
+    
 }
 
 .crud-links-section{
