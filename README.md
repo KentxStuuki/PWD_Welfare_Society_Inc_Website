@@ -18,7 +18,7 @@
 
 - Home page
 - About page
-- Product Page
+- Events Page
 - Contact page
 
 ### Contributors
