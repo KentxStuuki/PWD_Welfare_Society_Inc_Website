@@ -11,6 +11,10 @@ import { RouterModule } from '@angular/router';
   styleUrl: './subscriber-table.component.css'
 })
 export class SubscriberTableComponent {
+
+  // Subscriber Header
+  subscriber_header = "Subscriber's Email";
+
   readonly useremailAPIUrl = "http://localhost:5038/subscriber-email/";
   useremail: any = [];
 

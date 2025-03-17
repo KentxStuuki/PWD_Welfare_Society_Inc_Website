@@ -10,6 +10,10 @@ import { Router, RouterModule } from '@angular/router';
   styleUrl: './volunteer-table.component.css'
 })
 export class VolunteerTableComponent {
+
+  // Volunteer Header 
+  volunteer_header= "Volunteers List";
+  
   readonly volunteersAPIUrl = "http://localhost:5038/volunteers/";
   volunteers: any = [];
 

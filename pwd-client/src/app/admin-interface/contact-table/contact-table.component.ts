@@ -11,6 +11,9 @@ import { CommonModule } from '@angular/common';
   styleUrl: './contact-table.component.css'
 })
 export class ContactTableComponent {
+  //Contacrt Header
+  contact_header = "Contact's List";
+  
   readonly contactsAPIUrl = "http://localhost:5038/contacts/";
   contacts: any = [];
 
