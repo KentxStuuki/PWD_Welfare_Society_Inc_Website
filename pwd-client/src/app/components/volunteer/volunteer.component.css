@@ -16,6 +16,60 @@
     padding: var(--spacer-pd);
 }
 
+/* Animation */
+/* Animation */
+
+/* Keyframes for animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeUp {
+    from {
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.volunteer-content h2, p, a{
+    animation: slideInLeft 1s ease-in-out;
+}
+
+app-volunteer-form {
+    animation: slideInRight 1s ease-in-out;
+}
+
 
 /* ======================================== volunteer Form Section Style ======================================== */
 
