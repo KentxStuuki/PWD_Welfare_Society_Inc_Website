@@ -23,7 +23,7 @@ export class AdminInterfaceComponent {
   admin_post_container = "All Posts"
 
   // Crud Section Header 
-  crud_header = "All Crud Table's"
+  crud_header = "All Tables"
 
   readonly APIUrl = 'http://localhost:5038/posts/';
   editingPost: any=null;  
