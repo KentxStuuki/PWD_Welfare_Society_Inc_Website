@@ -102,10 +102,7 @@
   flex-direction: column;
 }
 
-.event-form-container label,
-.event-form-container input {
-  margin-bottom: 10px;
-}
+
 
 /* Media Query for Mobile Responsiveness */
 @media screen and (max-width: 768px) {
@@ -118,9 +115,7 @@
     .event-btn {
         width: 100%;
     }
-    .event-form-container{
-        display: block; /* Show form on mobile */
-    }
+    
     .event-content-info{
         text-align: center; /*center text in the event content info*/
     }
