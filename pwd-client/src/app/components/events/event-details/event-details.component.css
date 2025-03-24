@@ -89,20 +89,6 @@
     transform: scale(1.1);
 }
 
-/* ======================================== Form Section Style ======================================== */
-
-.event-form-container{
-  width: 90%;
-  margin: var(--header-mg) auto;
-  display: none; /* Initially hidden on larger screens */
-}
-
-.event-form-container form {
-  display: flex;
-  flex-direction: column;
-}
-
-
 
 /* Media Query for Mobile Responsiveness */
 @media screen and (max-width: 768px) {
