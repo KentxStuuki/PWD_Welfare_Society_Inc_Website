@@ -1,4 +1,3 @@
-<!-- Event Header Section -->
 <section class="event-header-section">
     <div class="event-header-container">
         <h1>{{ post.title }}</h1>
@@ -6,12 +5,11 @@
     </div>
 </section>
 
-<!-- Event Information Section -->
 <section class="content-event-section">
     <div class="content-image-container">
         <img [src]="post.image" alt="Event Image">
     </div>
-    <div class="event-conent-info">
+    <div class="event-content-info">
         <h2>{{time_header}}</h2>
         <p><strong>Posted on:</strong> {{ post.createdAt | date:'medium' }}</p>
         <h3>{{about_header}}</h3>
@@ -20,5 +18,15 @@
         <div class="event-content-btn-container">
             <a routerLink="/event"><button class="event-btn"><i class="fa-solid fa-arrow-left"></i> Back to Posts</button></a>
         </div>
+    </div>
+
+    <div class="event-form-container">
+      <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+        <input type="submit" value="Submit">
+      </form>
     </div>
 </section>
