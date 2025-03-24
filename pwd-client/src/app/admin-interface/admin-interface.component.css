@@ -95,7 +95,7 @@ text-decoration: underline;
     padding: var(--spacer-pd);
 }
 
-.crud-links-section button{
+.crud-links-section button, .logout button {
     padding: var(--btn-pd);
     font-weight: var(--font-mid-bold);
     font-size: var(--normal-font-size);
@@ -111,4 +111,18 @@ text-decoration: underline;
 .crud-links-section button:hover{
     transform: scale(1.1);
 }
-
+.logout {
+    text-align: right;
+    margin-left: auto;
+}
+.logout button {
+    background-color: var(--default-font-color);
+    color: var(--secondary-color);
+    border: 2px solid var(--secondary-color);
+}
+.logout button:hover {
+    transform: scale(1.1);
+    background-color: var(--secondary-color);
+    color: var(--default-font-color);
+    border: 2px solid var(--default-font-color);
+}
